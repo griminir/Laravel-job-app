@@ -9,7 +9,7 @@
     </div>
 
     <div class="flex justify-between items-center mt-auto">
-        <div class="">
+        <div>
             <x-tag size="sm">Tag 1</x-tag>
             <x-tag size="sm">Tag 2</x-tag>
             <x-tag size="sm">Tag 3</x-tag>
