@@ -10,7 +10,7 @@
 
         <x-forms.divider></x-forms.divider>
 
-        <x-forms.input label="Employer Name" name="Employer" ></x-forms.input>
+        <x-forms.input label="Employer Name" name="employer" ></x-forms.input>
         <x-forms.input label="Employer Logo" name="logo" type="file"></x-forms.input>
 
 
