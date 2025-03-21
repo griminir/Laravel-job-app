@@ -35,7 +35,6 @@
                 @foreach($jobs as $job)
                     <x-job-card-wide :job="$job" />
                 @endforeach
-
             </div>
         </section>
     </div>
