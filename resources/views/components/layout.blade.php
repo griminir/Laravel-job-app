@@ -27,9 +27,17 @@
                 <a href="/salaries">Salaries</a>
                 <a href="/companies">Companies</a>
             </div>
-            <div>
-                <a href="/">Post a Job</a>
-            </div>
+            @auth
+                <div>
+                    <a href="/jobs/create">Post a Job</a>
+                </div>
+            @endauth
+            @guest
+                <div class="space-x-6 font-bold">
+                    <a href="/login">Log In</a>
+                    <a href="/register">Register</a>
+                </div>
+            @endguest
         </nav>
 
         <main class="mt-10 max-w-[986px] mx-auto">
