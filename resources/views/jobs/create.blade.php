@@ -3,7 +3,7 @@
 
     <x-forms.form method="POST" action="/jobs">
         <x-forms.input label="Job Title" name="title" placeholder="CEO" required/>
-        <x-forms.input label="Salary" name="salary" type="number" placeholder="500 000 NOK" required />
+        <x-forms.input label="Salary" name="salary" placeholder="500 000 NOK" required />
         <x-forms.input label="Location" name="location" placeholder="Bergen" required />
 
         <x-forms.select label="Schedule" name="schedule"  required>
